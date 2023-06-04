@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/interior-view-illuminated-basketball-stadium-game_207634-1082.jpg");
+    background-size: cover;
+}
+
+h3,p {
+    color: white;
+    text-shadow: 3px 3px 2px #222222;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-container {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#plusOneHome,
+#plusThreeHome,
+#plusFiveHome {
+    font-size: 18px;
+    color: #222222;
+    background-color: salmon;
+    border: 3px solid #222222;
+    border-radius: 10px;
+
+}
+
+#plusOneHome:hover,
+#plusThreeHome:hover,
+#plusFiveHome:hover {
+    color: salmon;
+    background-color: #222222;
+
+}
+
+
+.home-score,
+.guest-score {
+    margin: 50px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: salmon;
+    background-color: #222222;
+    width: 150px;
+    height: 150px;
+}
+
+#start-btn,
+#reset-btn {
+    font-size: 18px;
+    color: #222222;
+    background-color: salmon;
+    border: 3px solid #222222;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#start-btn:hover,
+#reset-btn:hover{
+    color: salmon;
+    background-color: #222222; 
+} 

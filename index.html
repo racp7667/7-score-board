@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <div class="score-container">
+            <div class="home">
+                <h3>HOME</h3>
+                <div class="home-score">
+                    <h2 id="home-score-val">0</h2>
+                </div>
+                <div class="score-btns">
+                    <button id="plusOneHome" onclick="plusOneHome()">+1</button>
+                    <button id="plusThreeHome" onclick="plusThreeHome()">+3</button>
+                    <button id="plusFiveHome" onclick="plusFiveHome()">+5</button>    
+                </div>
+            </div>
+    
+            <div class="guest">
+                <h3>GUEST</h3>
+                <div class="guest-score">
+                    <h2 id="guest-score-val">0</h2>
+                </div>
+                <div class="score-btns">
+                    <button id="plusOneHome" onclick="plusOneGuest()">+1</button>
+                    <button id="plusThreeHome" onclick="plusThreeGuest()">+3</button>
+                    <button id="plusFiveHome" onclick="plusFiveGuest()">+5</button>    
+                </div>
+            </div>
+        </div>
+        <button id="start-btn" onclick="start()">START</button>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+        <p id="start-msg"></p>
+    </div>
+    
+</body>
+</html>
