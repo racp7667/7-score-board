@@ -32,11 +32,12 @@ function plusFiveGuest(){
     document.getElementById("guest-score-val").textContent = guestScore  
 }
 
+function start(){
+    document.getElementById("start-msg").textContent = "LET'S THE GAME BEGIN!!!!"
+}
+
 function reset(){
     document.getElementById("home-score-val").textContent = 0
     document.getElementById("guest-score-val").textContent = 0  
-}
-
-function start(){
-    document.getElementById("start-msg").textContent = "LET'S THE GAME BEGIN!!!!"
+    document.getElementById("start-msg").textContent = null
 }
